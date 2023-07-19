@@ -173,14 +173,39 @@ section.gamer-part {
     color: #534C64;
     font-size: 17px;
 }
+
 p.gamer-purpose {
     font-size: 24px;
     font-weight: 600;
     margin-top: 0px;
 }
 
+/* Online game part */
+.online-game-info {
+    text-align: center;
+}
+.online-game-info h1 {
+    font-size: 40px;
+}
+
+.online-game-img {
+    display: flex;
+    justify-content: center;
+    
+}
+.single-pic img {
+    width: 264px;
+}
+.single-pic {
+    padding: 12px;
+}
+
 /* media quayri */
 /* for-mobile  */
+@media screen and (max-width:576px) {
+    
+}
+
 @media screen and (max-width:576px) {
     .navigation {
         justify-content: space-around;
@@ -202,7 +227,7 @@ p.gamer-purpose {
         margin-top: -25px;
     }
 
-    section.games-banner {
+    .games-banner {
         flex-direction: column-reverse;
     }
 
@@ -216,4 +241,20 @@ p.gamer-purpose {
         margin-top: 10px;
     }
 
+    .gamer-part {
+        flex-direction: column;
+    }
+
+    .gamer-img img {
+        width: 100%;
+    }
+
+    .gamer-info {
+        margin-top: 10px;
+        text-align: center;
+    }
+    .online-game-img {
+        flex-direction: column;
+        align-items: center;
+    }
 }
