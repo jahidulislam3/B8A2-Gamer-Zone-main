@@ -1,7 +1,94 @@
 /* font-link */
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,700&display=swap');
 
-body{
+body {
     font-family: 'Work Sans', sans-serif;
     margin: 0;
+}
+
+/* Share color and btn */
+.share-color {
+    color: #F948B2;
+
+}
+
+/* navigation style */
+.navigation-img {
+    display: flex;
+}
+
+nav.navigation {
+    display: flex;
+    justify-content: space-around;
+}
+
+.navigation-info ul {
+    display: flex;
+    list-style: none;
+}
+
+.navigation-img h3 {
+    font-size: 33px;
+}
+
+.navigation-img img {
+    width: 73px;
+    height: 50px;
+    margin-top: 27px;
+    margin-right: 10px;
+}
+
+.navigation-info {
+    margin-top: 24px;
+}
+
+ul.navigation-list li {
+    margin-left: 31px;
+    color: #3C354F;
+}
+
+ul.navigation-list a {
+    text-decoration: none;
+    color: #3C354F;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+li.follow-us {
+    background: #E7E9E6;
+    padding: 10px 10px 10px 10px;
+    margin-top: -9px;
+}
+
+li.follow-us i {
+    padding: 0px 9px 0px 12px;
+    font-size: 22px;
+}
+
+i#yuotube-icon {
+    color: red;
+}
+
+
+/* media quayri */
+/* for-mobile  */
+@media screen and (max-width:576px) {
+    .navigation {
+        justify-content: space-around;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    ul.navigation-list li {
+        margin-left: 0px;
+        margin-top: 15px
+    }
+
+    .navigation-info ul {
+        flex-direction: column;
+        text-align: center;
+    }
+    .navigation-info {
+        margin-top: -25px;
+    }
 }
