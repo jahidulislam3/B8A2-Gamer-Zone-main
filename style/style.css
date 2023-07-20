@@ -184,6 +184,7 @@ p.gamer-purpose {
 .online-game-info {
     text-align: center;
 }
+
 .online-game-info h1 {
     font-size: 40px;
 }
@@ -191,20 +192,59 @@ p.gamer-purpose {
 .online-game-img {
     display: flex;
     justify-content: center;
-    
+
 }
+
 .single-pic img {
     width: 264px;
 }
+
 .single-pic {
     padding: 12px;
 }
 
+.play-instantly {
+    display: flex;
+    padding: 67px 112px 20px 159px;
+}
+
+img#play-single-pc {
+    position: absolute;
+    right: 327px;
+    top: 302px;
+    width: 212px;
+}
+
+.play-instantly-pic img {
+    width: 454px;
+}
+
+.play-instantly-info {
+    padding: 74px 197px 0px 54px;
+    text-align: end;
+}
+
+.play-instantly-pic {
+    position: relative;
+}
+
+.games-name {
+    display: flex;
+    margin-top: 141px;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 20px 100px 22px 100px;
+    width: 1128px;
+}
+
+.game-icon {
+    display: flex;
+    padding: 11px;
+    margin-bottom: 29px;
+}
+
 /* media quayri */
 /* for-mobile  */
-@media screen and (max-width:576px) {
-    
-}
 
 @media screen and (max-width:576px) {
     .navigation {
@@ -253,8 +293,30 @@ p.gamer-purpose {
         margin-top: 10px;
         text-align: center;
     }
+
     .online-game-img {
         flex-direction: column;
         align-items: center;
+    }
+
+    .play-instantly {
+        padding: 51px 0px 20px 12px;
+        flex-direction: column;
+    }
+
+    .play-instantly-info {
+        padding: 18px 10px 26px 12px;
+        text-align: center;
+    }
+    img#play-sinle-pc {
+        right: 191px;
+        top: 183px;
+        width: 42%;
+    }
+    .play-instantly-pic img {
+        width: 78%;
+    }
+    .play-instantly-pic {
+        padding: 10px 7px 0px 35px;
     }
 }
