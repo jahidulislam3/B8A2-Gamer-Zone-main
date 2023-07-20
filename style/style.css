@@ -241,6 +241,59 @@ img#play-single-pc {
     display: flex;
     padding: 11px;
     margin-bottom: 29px;
+    border: 1px solid white;
+}
+
+.game-icon:hover {
+    border: 1px solid #FF42A5;
+    border-radius: 50px;
+    color: #FF42A5;
+}
+
+footer {
+    background: #0B0223;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer h3 {
+    font-size: 32px;
+}
+
+.amer {
+    color: white;
+}
+.footer-info {
+    color: white;
+    display: flex;
+    list-style: none;
+    padding-left: 358px;
+}
+
+.footer-icon {
+    color: white;
+    text-align: center;
+    padding-top:20px;
+}
+
+.footer-icon i {
+    font-size: 35px;
+    margin-right: 21px;
+}
+ul.footer-info li {
+    padding-right: 44px;
+}
+#f-info{
+    color: #9D9A07;
+}
+p.footer-tex {
+    color: #9D9A07;
+    text-align: center;
+    padding: 16px 3px 115px 10px;
 }
 
 /* media quayri */
@@ -308,14 +361,17 @@ img#play-single-pc {
         padding: 18px 10px 26px 12px;
         text-align: center;
     }
+
     img#play-sinle-pc {
         right: 191px;
         top: 183px;
         width: 42%;
     }
+
     .play-instantly-pic img {
         width: 78%;
     }
+
     .play-instantly-pic {
         padding: 10px 7px 0px 35px;
     }
